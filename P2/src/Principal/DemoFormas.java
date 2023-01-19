@@ -55,7 +55,7 @@ public class DemoFormas {
 					}
 					break;
 			}
-		}while (opcao == 4);
+		}while (opcao != 4);
 		sc.close();
 	}
 
