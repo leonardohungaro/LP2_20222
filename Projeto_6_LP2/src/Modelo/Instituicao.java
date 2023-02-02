@@ -11,13 +11,13 @@ public class Instituicao {
 	private int codigoMec, anoFundacaoInstituicao;
 	
 	/**
-	 * 
-	 * @param nomeInstituicao
-	 * @param tipo
-	 * @param cidade
-	 * @param estado
-	 * @param codigoMec
-	 * @param anoFundacaoInstituicao
+	 * Contrutor completo
+	 * @param nomeInstituicao		Nome da isntituição de ensino
+	 * @param tipo				Tipo da instituição de ensino(Educação Infantil, Ensino médio, Ensino fundamental, Ensino superior)
+	 * @param cidade			Município em que se localiza a instituição
+	 * @param estado			Estado em que se localiza a instituição
+	 * @param codigoMec			Código de cadastro da instituição no MEC
+	 * @param anoFundacaoInstituicao	Ano de fundação da instituição.
 	 */
 	public Instituicao(String nomeInstituicao, String tipo, String cidade, String estado, int codigoMec, int anoFundacaoInstituicao) {
 		this.nomeInstituicao = nomeInstituicao;
@@ -29,22 +29,22 @@ public class Instituicao {
 	}
 	
 	/**
-	 * 
+	 * Construtor vazio
 	 */
 	public Instituicao() {
 		
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o nome da instituição
+	 * @return nomeInstituicao
 	 */
 	public String getNomeInstituicao() {
 		return nomeInstituicao;
 	}
 	
 	/**
-	 * 
+	 * Método para configurar o nome da instituição
 	 * @param nomeInstituicao
 	 */
 	public void setNomeInstituicao(String nomeInstituicao) {
@@ -52,15 +52,15 @@ public class Instituicao {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o tipo da instituição
+	 * @return tipo
 	 */
 	public String getTipo() {
 		return tipo;
 	}
 
 	/**
-	 * 
+	 * Método para configurar o tipo da instituição
 	 * @param tipo
 	 */
 	public void setTipo(String tipo) {
@@ -68,15 +68,15 @@ public class Instituicao {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o município em que se localiza a instituição
+	 * @return cidade
 	 */
 	public String getCidade() {
 		return cidade;
 	}
 
 	/**
-	 * 
+	 * Método para configurar o município em que se localiza a instituição
 	 * @param cidade
 	 */
 	public void setCidade(String cidade) {
@@ -84,15 +84,15 @@ public class Instituicao {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o estado em que se localiza a instituição
+	 * @return estado
 	 */
 	public String getEstado() {
 		return estado;
 	}
 
 	/**
-	 * 
+	 * Método para configurar o estado em que se localiza a instituição
 	 * @param estado
 	 */
 	public void setEstado(String estado) {
@@ -100,15 +100,15 @@ public class Instituicao {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o código de cadastro da instituição no MEC
+	 * @return codigoMec
 	 */
 	public int getCodigoMec() {
 		return codigoMec;
 	}
 
 	/**
-	 * 
+	 * Método para configurar o código de cadastro da instituição no MEC
 	 * @param codigoMec
 	 */
 	public void setCodigoMec(int codigoMec) {
@@ -116,15 +116,15 @@ public class Instituicao {
 	}
 
 	/**
-	 * 
-	 * @return
+	 * Método que retorna o ano de fundação da instituição
+	 * @return anoFundacaoInstituicao
 	 */
 	public int getAnoFundacaoInstituicao() {
 		return anoFundacaoInstituicao;
 	}
 
 	/**
-	 * 
+	 * Método para configurar o ano de fundação da instituição
 	 * @param anoFundacaoInstituicao
 	 */
 	public void setAnoFundacaoInstituicao(int anoFundacaoInstituicao) {
